@@ -1,0 +1,11 @@
+body {
+  background-color: darkgray; }
+
+.h1 {
+  color: red;
+  font-size: 1.5rem;
+  padding: 1rem; }
+
+.a {
+  color: white;
+  font-size: 15px; }

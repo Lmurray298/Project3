@@ -4,7 +4,8 @@
   "description": "Team project 3",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o assets/css"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/Lmurray298/Project3#readme",
   "dependencies": {
     "node": "^12.1.0",
+    "node-sass": "^4.12.0",
     "sass": "^1.20.1"
   }
 }
