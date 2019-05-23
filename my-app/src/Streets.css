@@ -1,0 +1,8 @@
+.sidenav{
+    height: 500px;
+    width: 300px;
+    background-color: lightgrey;
+    margin: 10px;
+    position: relative;
+
+}

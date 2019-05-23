@@ -1,28 +1,29 @@
 import React, { Component } from "react";
+import Nav from './Nav';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from "google-maps-react";
+import SideNav from './Streets';
+
+import './App.css';
 
 const style ={
   width: "70%",
-  height: "80%"
-
+  height: "90%"
 };
 
-
 class App extends Component {
-  
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-        <h1 className="App-title"> Emergency Map</h1>
-        </header>
+      <div>
+        <Nav />
 
-        <Map google={this.props.google} zoom={14}
+        <SideNav/>
+  
+        <Map google={this.props.google} zoom={15}
         style = {style}
         justify= "left"
         initialCenter={{
-          lat: 42.3601,
-          lng: -71.0589
+          lat: 43.1340,
+          lng: -70.9264
         }}
         >
         <Marker onClick={this.onMarkerClick}
@@ -33,17 +34,15 @@ class App extends Component {
         </InfoWindow>
 
       </Map>
-        
+
       </div>
-    );
+      
+      )
   }
 }
-
 
 
 export default GoogleApiWrapper({
   apiKey: ("AIzaSyAZh-sq69yI6rpXdlr0iBOchlk3O-G21mc")
 })(App)
  
-
-
