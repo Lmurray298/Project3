@@ -35,4 +35,4 @@ class Googmap extends Component {
 
 export default GoogleApiWrapper({
   apiKey: ("AIzaSyAZh-sq69yI6rpXdlr0iBOchlk3O-G21mc")
-})(App)
+})(Googmap)
