@@ -1,9 +1,24 @@
 .sidenav{
     height: 646px;
     width: 30%;
-    background-color: lightgrey;
+    background-color: gray;
     padding-left: 20px;
     float: right;
+  
 
 
 }
+
+
+.list-group{
+    width: 95%;
+    padding: 10px;
+    overflow: scroll;
+    
+   
+}
+
+.form{
+    padding: 10px;
+}
+
