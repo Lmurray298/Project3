@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "lat": ,
+        "lng": ,
+        "clicked": false
+      },
+      {
+        "id": 2,
+        "lat": ,
+        "lng": ,
+        "clicked": false
+      },
+      {
+        "id": 3,
+        "lat": ,
+        "lng": ,
+        "clicked": false
+      },
+      {
+        "id": 4,
+        "lat": ,
+        "lng": ,
+        "clicked": false
+      },
+      {
+        "id": 5,
+        "lat": ,
+        "lng": ,
+        "clicked": false
+      },
+      {
+        "id": 6,
+        "lat": ,
+        "lng": ,
+        "clicked": false
+      }
+
+]
