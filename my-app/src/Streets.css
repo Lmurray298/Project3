@@ -13,7 +13,7 @@
 .list-group{
     width: 95%;
     padding: 10px;
-    overflow: scroll;
+    overflow-y: auto;
     
    
 }

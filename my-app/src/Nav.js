@@ -20,7 +20,7 @@ class Nav extends React.Component {
                 
               </ul>
               <form className="form-inline my-2 my-lg-0">
-                <input className="form-control mr-sm-1" type="search" placeholder="Street Filter" aria-label="Search" />
+                <input className="form-control mr-sm-1 text-center" type="search" placeholder="Street Filter" aria-label="Search" />
                
               </form>
             </div>
