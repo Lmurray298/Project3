@@ -11,7 +11,6 @@ class Wrapper extends Component {
         return (<Container style={{height: "50%"}}>
             <Row>
                 <Col>
-                    <h1>im the col with the nav!</h1>
                     <Jumbotron>
                     <Nav />
                     </Jumbotron>
