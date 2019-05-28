@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
+require('dotenv').config();
 
 const style ={
   width: "70%",
@@ -34,5 +35,5 @@ class Googmap extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: ("AIzaSyAZh-sq69yI6rpXdlr0iBOchlk3O-G21mc")
+  apiKey: (process.env.REACT_APP_GOOGLESECRET)
 })(Googmap)
