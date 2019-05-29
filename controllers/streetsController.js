@@ -30,6 +30,12 @@ module.exports = {
     // db.Street.findById(req.params.id)
     //   .then(dbStreet => res.json(dbStreet))
     //   .catch(err => res.status(422).json(err));
+  },
+  create: function(req, res) {
+    console.log(req.query);
+    // var newStreet = JSON.parse(res);
+    // streets.push(newStreet);
+
   }
   
 };
