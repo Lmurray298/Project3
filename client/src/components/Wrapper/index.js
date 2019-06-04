@@ -4,34 +4,27 @@ import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Nav from "../Nav";
-import Googmap from "../Googmap"
+import Googmap from '../Googmap';
 
 class Wrapper extends Component {
 
     render() {
-        return (<Container style={{height: "50%"}}>
+        return (
+        <Container style={{height: "50%"}}>
             <Row>
                 <Col>
                     <Jumbotron>
                     <Nav />
+                    <Googmap/>
                     </Jumbotron>
                 </Col>
             </Row>
         </Container>
         
 
-        )
-        ;
+        );
 
-        
     }
-    
 }
-
-<Googmap/>
-
-
-
-
 
 export default Wrapper;
