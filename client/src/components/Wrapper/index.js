@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Nav from "../Nav";
+import Googmap from "../Googmap"
 
 class Wrapper extends Component {
 
@@ -19,10 +20,18 @@ class Wrapper extends Component {
         </Container>
         
 
-        );
+        )
+        ;
 
-        <Googmap/>
+        
     }
+    
 }
+
+<Googmap/>
+
+
+
+
 
 export default Wrapper;
