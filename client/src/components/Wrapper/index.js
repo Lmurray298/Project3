@@ -16,7 +16,12 @@ class Wrapper extends Component {
                     </Jumbotron>
                 </Col>
             </Row>
-        </Container>);
+        </Container>
+        
+
+        );
+
+        <Googmap/>
     }
 }
 
